@@ -16,6 +16,10 @@
 :root{
   --greenVariable: green;
   --redVariable: red;
+  --blueVariable: blue;
+}
+:root{
+  --yellowVariable: yellow;
 }
 
 h3 {
