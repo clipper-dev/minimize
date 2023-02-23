@@ -18,10 +18,12 @@ module.exports = {
         {
           content: [
               './pages/**/*.{js,jsx,ts,tsx}',
-              './components/**/*.{js,jsx,ts,tsx}'
+              './components/**/*.{js,jsx,ts,tsx}',
+             ' ./styles/**/*.{css,scss,sass}',
           ],
           defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
-          safelist: ["html", "body"]
+          safelist: ["html", "body"],
+          variables: true,
         }
       ],
     ]
