@@ -1,7 +1,4 @@
 .green {
-  --green: green;
-}
-.green {
   color: green;
 }
 .blue {
@@ -10,4 +7,11 @@
 /* nieuzywane, purguje */
 .yellow {
   color: yellow;
+}
+
+:root {
+  --redVariable: red;
+}
+:root{
+  --greenVariable: green;
 }
