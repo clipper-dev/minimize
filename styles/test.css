@@ -11,9 +11,12 @@
 
 :root {
   line-height: 1.4rem;
-  --redVariable: red;
   
 }
 :root{
   --greenVariable: green;
+}
+.red {
+  --redVariable: red;
+
 }
