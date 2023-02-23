@@ -1,13 +1,13 @@
-
-.red {
-    color: red;
-  }
-  .green {
-    color: green;
-  }
-  .blue {
-    color: blue;
-  }
-  .yellow {
-    color: yellow;
-  }
+.green {
+  --green: green;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
+/* nieuzywane, purguje */
+.yellow {
+  color: yellow;
+}
