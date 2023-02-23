@@ -15,8 +15,9 @@
 }
 :root{
   --greenVariable: green;
-}
-.red {
   --redVariable: red;
+}
 
+h3 {
+  color: var(--greenVariable);
 }
