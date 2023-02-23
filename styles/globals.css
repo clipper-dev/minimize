@@ -11,18 +11,6 @@ main {
   align-items: center;
   justify-content: center; 
 }
-.red {
-  color: red;
-}
-.green {
-  color: green;
-}
-.blue {
-  color: blue;
-}
-.yellow {
-  color: yellow;
-}
 a {
   color: inherit;
   text-decoration: none;
