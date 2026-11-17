@@ -22,6 +22,7 @@ module.exports = {
           ],
           defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || [],
           safelist: ["html", "body"],
+          variables: true,
         }
       ],
     ]

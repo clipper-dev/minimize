@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <main>
+    <main className='coolbiej'>
       <h1>Test 1</h1>
       <h2>Test 2</h2>
       <h3 className={styles.red}>Red</h3>

@@ -1,5 +1,5 @@
-.green {
-  color: green;
+h3 {
+  color: var(--greenVariable);
 }
 .blue {
   color: blue;
@@ -13,15 +13,10 @@
   line-height: 1.4rem;
   
 }
-:root{
+.coolbiej {
   --greenVariable: green;
   --redVariable: red;
   --blueVariable: blue;
-}
-:root{
   --yellowVariable: yellow;
 }
 
-h3 {
-  color: var(--greenVariable);
-}
